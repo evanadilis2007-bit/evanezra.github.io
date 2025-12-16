@@ -1,1 +1,170 @@
 
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio | Evan Ezra Adilis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f4f7fb;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #0d6efd, #003f88);
+      color: white;
+      padding: 70px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 2.5rem; }
+    header p { margin-top: 10px; font-size: 1.1rem; }
+
+    nav {
+      background: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+    }
+    nav ul li a {
+      display: block;
+      padding: 15px 20px;
+      text-decoration: none;
+      color: #0d6efd;
+      font-weight: 500;
+    }
+    nav ul li a:hover { background: #f0f4ff; }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+    h2 {
+      color: #0d6efd;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      transition: transform .3s;
+    }
+    .card:hover { transform: translateY(-5px); }
+
+    ul { padding-left: 20px; }
+
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 25px;
+    }
+    footer a { color: #0d6efd; text-decoration: none; }
+
+    .badge {
+      display: inline-block;
+      background: #0d6efd;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 20px;
+      margin: 5px 5px 0 0;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Evan Ezra Adilis</h1>
+  <p>Mahasiswa Informatics Engineering | IT Support | CCTV Technician</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#about">Tentang</a></li>
+    <li><a href="#profile">Profil</a></li>
+    <li><a href="#skills">Skill</a></li>
+    <li><a href="#projects">Project</a></li>
+    <li><a href="#contact">Kontak</a></li>
+  </ul>
+</nav>
+
+<section id="about">
+  <h2>Tentang Saya</h2>
+  <p style="text-align:center; max-width:700px; margin:auto;">
+    Saya adalah mahasiswa Informatics Engineering yang memiliki pengalaman kerja di bidang CCTV. Saya terbiasa melakukan pemasangan, konfigurasi, hingga maintenance CCTV baik untuk rumah, kantor, maupun tempat usaha. Selain itu, saya memiliki dasar pemrograman dan jaringan komputer.
+  </p>
+</section>
+
+<section id="profile">
+  <h2>Profil Singkat</h2>
+  <div class="grid">
+    <div class="card"><strong>Alamat:</strong><br>Indonesia</div>
+    <div class="card"><strong>Telepon:</strong><br>08xxxxxxxxxx</div>
+    <div class="card"><strong>Email:</strong><br>emailanda@gmail.com</div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skill</h2>
+  <div class="card">
+    <span class="badge">Pemasangan CCTV</span>
+    <span class="badge">Maintenance CCTV</span>
+    <span class="badge">Troubleshooting</span>
+    <span class="badge">DVR / NVR</span>
+    <span class="badge">IP Camera</span>
+    <span class="badge">Jaringan LAN</span>
+    <span class="badge">HTML & CSS</span>
+    <span class="badge">Java & MySQL</span>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Pengalaman & Project</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Project CCTV</h3>
+      <ul>
+        <li>Pemasangan CCTV rumah, kantor, dan toko</li>
+        <li>Maintenance rutin & perbaikan kamera</li>
+        <li>Konfigurasi DVR/NVR & jaringan</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Project IT</h3>
+      <ul>
+        <li>Aplikasi CRUD Hotel (Java & MySQL)</li>
+        <li>Web Portofolio dengan GitHub Pages</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Kontak</h2>
+  <p style="text-align:center;">Hubungi saya melalui email atau WhatsApp untuk kerja sama.</p>
+</section>
+
+<footer>
+  <p>© 2025 Evan Ezra Adilis | Dibuat dengan GitHub Pages</p>
+</footer>
+
+</body>
+</html>
